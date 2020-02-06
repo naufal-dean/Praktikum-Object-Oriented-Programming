@@ -6,6 +6,7 @@ Pada saat konstruksi obyek, jumlah kunci semula adalah 0.
 
 Diberikan header C++ sebagai berikut, Anda hanya diminta mengumpulkan file implementasi (BunchOfKeys.cpp) nya saja.
 
+```
 // BunchOfKeys.hpp
 #ifndef __BUNCH_OF_KEYS_HPP__
 #define __BUNCH_OF_KEYS_HPP__
@@ -17,13 +18,14 @@ class BunchOfKeys {
   public:
     // ctor
     BunchOfKeys();
-    
+
     // member function
     void add();
     void shake();
-    
+
   private:
     int n_keys; // jumlah kunci yg ada
 };
 
-#endif 
+#endif
+```
