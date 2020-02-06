@@ -1,10 +1,13 @@
 Diberikan sebuah class Complex yang merupakan representasi dari bilangan kompleks. Bilangan kompleks merupakan bilangan yang berbentuk a + bi, dimana a disebut sebagai bagian real, dan b disebut sebagai bagian imajiner. Pada praktikum ini anda diminta untuk mengimplementasikan class Complex yang dapat melakukan overloading 3 operator yaitu +, -, dan *. Untuk header dari class Complex dapat diunduh disini.
 
 Berikut merupakan aturan dari operasi yang ada pada bilangan kompleks
+
 Operator +
 `(a + b i) + (c + d i) = (a + c) + (b + d) i`
+
 Operator -
 `(a + b i) – (c + d i) = (a – c) + (b – d) i`
+
 Operator \*
 `(a + b i) * (c + d i) = (a * c – b * d) + (a * d + b * c) i`
 
