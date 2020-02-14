@@ -2,13 +2,9 @@ Untuk melancarkan mimpinya untuk memiliki 100 teman, Komi ingin mendirikan dinas
 
 Implementasi WarungNasi sudah diberikan, sementara WarungNasgor dan WarungSaltedEgg harus diimplementasikan dari header yang telah diberikan.
 
-WarungNasi.hpp
-
-WarungNasi.cpp
-
-WarungNasgor.hpp
-
-WarungSaltedEgg.hpp
+[WarungNasi.hpp](WarungNasi.hpp)\
+[WarungNasi.cpp](WarungNasi.cpp)\
+[WarungNasgor.hpp](WarungNasgor.hpp)\
+[WarungSaltedEgg.hpp](WarungSaltedEgg.hpp)
 
 Upload WarungNasgor.cpp dan WarungSaltedEgg.cpp dalam satu file zip menjadi WarungNasi.zip
-

@@ -1,6 +1,6 @@
-Berikut adalah implementasi dari kelas Vehicle, Car, dan Bike. Kelas-kelas tersebut merepresentasikan kendaraan yang mempunyai turunan mobil dan motor. Atribut dan method dari kelas-kelas tersebut dapat dilihat pada kode implementasi tersebut, di mana setiap method akan menghasilkan keluaran khusus jika dipanggil.
+Berikut adalah implementasi dari kelas [Vehicle](Vehicle.cpp), [Car](Car.cpp), dan [Bike](Bike.cpp). Kelas-kelas tersebut merepresentasikan kendaraan yang mempunyai turunan mobil dan motor. Atribut dan method dari kelas-kelas tersebut dapat dilihat pada kode implementasi tersebut, di mana setiap method akan menghasilkan keluaran khusus jika dipanggil.
 
-Berikut adalah header untuk kelas Vehicle, Car, dan Bike.
+Berikut adalah header untuk kelas [Vehicle](Vehicle.h), [Car](Car.h), dan [Bike](Bike.h).
 
 | Contoh Main | Contoh Output |
 | ------ | ------ |
