@@ -58,7 +58,7 @@ int main() {
   b.print(); // OUTPUT: (888, 10888)
   return 0;
 }
-``
+```
 
 sehingga mampu menghasilkan output `(888, 10888)`
 
