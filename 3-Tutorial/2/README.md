@@ -1,15 +1,20 @@
 Berikut adalah implementasi dari kelas Vehicle, Car, dan Bike. Kelas-kelas tersebut merepresentasikan kendaraan yang mempunyai turunan mobil dan motor. Atribut dan method dari kelas-kelas tersebut dapat dilihat pada kode implementasi tersebut, di mana setiap method akan menghasilkan keluaran khusus jika dipanggil.
 
-Vehicle.zip
+[Vehicle.zip](Vehicle.zip)
 
 Sebagai contoh program berikut:
 
+```
 int main() {
     Vehicle v(4,4);
     v.show();
     return 0;
 }
+```
+
 akan menghasilkan keluaran sebagai berikut:
+
+```
 ctor vehicle 4 4
 wheels 4 capacity 4
 dtor vehicle 4 4
@@ -39,3 +44,4 @@ dtor vehicle 4 8
 dtor vehicle 6 50
 dtor vehicle 3 2
 dtor vehicle 3 2
+```

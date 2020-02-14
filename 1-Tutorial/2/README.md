@@ -1,4 +1,4 @@
-Diberikan sebuah class Complex yang merupakan representasi dari bilangan kompleks. Bilangan kompleks merupakan bilangan yang berbentuk a + bi, dimana a disebut sebagai bagian real, dan b disebut sebagai bagian imajiner. Pada praktikum ini anda diminta untuk mengimplementasikan class Complex yang dapat melakukan overloading 3 operator yaitu +, -, dan *. Untuk header dari class Complex dapat diunduh disini.
+Diberikan sebuah class Complex yang merupakan representasi dari bilangan kompleks. Bilangan kompleks merupakan bilangan yang berbentuk a + bi, dimana a disebut sebagai bagian real, dan b disebut sebagai bagian imajiner. Pada praktikum ini anda diminta untuk mengimplementasikan class Complex yang dapat melakukan overloading 3 operator yaitu +, -, dan *. Untuk header dari class Complex dapat diunduh [di sini](Complex.h).
 
 Berikut merupakan aturan dari operasi yang ada pada bilangan kompleks
 
