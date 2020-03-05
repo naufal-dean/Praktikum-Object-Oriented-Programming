@@ -8,8 +8,7 @@ Kini tugas Anda adalah membuat program yang menerima N, daftar kata Hojun, M, da
 |------------|-------------|
 |4<br>Budi<br>Budi<br>adalah<br>Budi<br>4<br>Budi<br>Bermain<br>Bola<br>Adalah|Budi<br>Budi<br>adalah|
 |4<br>Saya<br>Suka<br>Pemograman<br>C++<br>3<br>Tuan<br>Putri<br>Tidur|Saya<br>Suka<br>Pemrograman<br>C++|
-|2<br>Saya<br>Mengantuk|5<br>Saya<br>Ingin<br>Tidur<br>Karena<br>Mengantuk
-|
+|2<br>Saya<br>Mengantuk<br>5<br>Saya<br>Ingin<br>Tidur<br>Karena<br>Mengantuk|
 
 Anda diharuskan menggunakan minimal kakas dari STL yakni [Map](https://en.cppreference.com/w/cpp/container/map).
 
