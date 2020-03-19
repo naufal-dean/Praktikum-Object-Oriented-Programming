@@ -1,3 +1,5 @@
+Score: (80/130)
+
 Sebuah bank membutuhkan aplikasi untuk pengelolaan rekening. Pada bank tersebut terdapat 3 jenis rekening, yaitu RekeningTabungan, RekeningGiro, dan RekeningDeposito. Tugas Anda adalah mengimplementasikan kelas-kelas berikut untuk membantu pembuatan aplikasi tersebut.
 
 1. Abstract Class Rekening
