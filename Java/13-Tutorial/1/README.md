@@ -1,5 +1,3 @@
-Score: 60 / 100
-
 Karena ini praktikum terakhir, kamu akan mencoba belajar membuat soal praktikum! Di soal praktikum ini, mahasiswa akan membuat kelas yang:
 
 bernama Laptop

@@ -35,7 +35,7 @@ public class LaptopTest {
                     System.out.println("Nama method harus getRamSize");
                     passed = false;
                 }
-                if (!methods[0].getReturnType().getName().equals("Integer")) {
+                if (!methods[0].getReturnType().equals(Integer.class)) {
                     System.out.println("Tipe return method harus Integer");
                     passed = false;
                 }
@@ -63,7 +63,7 @@ public class LaptopTest {
                     passed = false;
                 }
                 // Jika tipe return bukan String, tuliskan "Tipe field harus String" (tanpa petik) ke layar
-                if (!fields[0].getType().getName().equals("String")) {
+                if (!fields[0].getType().equals(String.class)) {
                     System.out.println("Tipe field harus String");
                     passed = false;
                 }
