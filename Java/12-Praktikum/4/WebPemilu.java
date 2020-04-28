@@ -36,9 +36,12 @@ public class WebPemilu {
         // ubah kode berikut agar mengembalikan thread yang akan menambah vote
         // PENTING: jangan start thread, cukup return saja
 
-        return new Thread((Runnable) () -> {
-            if (verify(vote)) {
-                addVote(vote);
+        return new Thread(new Runnable() {
+            @Override
+            public void run() {
+                if (verify(vote)) {
+                    addVote(vote);
+                }
             }
         });
     }
