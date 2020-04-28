@@ -5,6 +5,7 @@ class RekeningDeposito extends Rekening {
 
 	public RekeningDeposito(String nama, double saldo) {
 		super(nama, saldo, 0.15);
+		this.bulan = 0;
 	}
 
 	public void setor(double uang) {
@@ -16,8 +17,8 @@ class RekeningDeposito extends Rekening {
 	}
 
 	public void tarik() {
-		double penalti = 0.2 * this.saldo;
 		if (bulan < 12) {
+			double penalti = 0.2 * this.saldo;
 			System.out.println("Anda terkena penalti sebesar " + penalti + ".");
 		}
 		this.saldo = 0;
@@ -27,7 +28,8 @@ class RekeningDeposito extends Rekening {
 		this.bulan++;
 		if (this.bulan % 12 == 0) {
 			this.saldo += this.getSukuBunga() * this.saldo - this.hitungBiaya();
+		} else {
+			this.saldo -= this.hitungBiaya();
 		}
 	}
 }
-

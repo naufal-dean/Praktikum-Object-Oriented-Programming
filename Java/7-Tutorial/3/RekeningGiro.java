@@ -8,22 +8,33 @@ class RekeningGiro extends Rekening {
 
 	public RekeningGiro(String nama, double saldo) {
 		super(nama, saldo, 0.07);
+		if (this.saldo < 500)
+			this.penalti = true;
+		else
+			this.penalti = false;
 	}
 
 	public void setor(double uang) {
-		this.saldo += uang - this.saldo * 0.10;
+		this.saldo += uang - 0.10;
+		if (this.saldo < 500)
+			this.penalti = true;
 	}
 
 	public void tarik(double uang) {
-		if (uang + this.hitungBiaya() <= this.saldo) {
-			this.saldo -= uang + this.saldo * 0.10;
+		if (uang + 0.10 <= this.saldo) {
+			this.saldo -= uang + 0.10;
 		}
+		if (this.saldo < 500)
+			this.penalti = true;
 	}
 
 	public void update() {
 		this.saldo += this.getSukuBunga() * this.saldo - this.hitungBiaya();
-		if (penalti) {
+		if (this.penalti) {
 			this.saldo -= 10;
+		}
+		if (this.saldo >= 500) {
+			this.penalti = false;
 		}
 		if (this.saldo < 0) {
 			this.saldo = 0;
